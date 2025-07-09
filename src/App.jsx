@@ -1,10 +1,10 @@
-import Header from "./components/header";
+import Header from "./components/shared/header";
 
 export default function App() {
   return (
     <>
       <Header />
-      <main className="h-screen"></main>
+      <main className="h-screen main"></main>
     </>
   );
 }

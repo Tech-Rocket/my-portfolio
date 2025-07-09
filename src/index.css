@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f4d66;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 77, 102, 1) 5%,
+    rgba(15, 18, 15, 1) 89%
+  );
+}
+
+main,
+header,
+.max-w {
+  @apply max-w-[83rem] mx-auto;
+}
