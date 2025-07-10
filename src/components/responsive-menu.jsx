@@ -6,11 +6,14 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "../components/ui/sheet";
+import { RiMenuFoldLine } from "react-icons/ri";
 
 export default function ResponsiveMenu() {
   return (
     <Sheet>
-      <SheetTrigger>Open</SheetTrigger>
+      <SheetTrigger>
+        <RiMenuFoldLine className="text-2xl text-green-600 cursor-pointer" />
+      </SheetTrigger>
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Are you absolutely sure?</SheetTitle>

@@ -1,4 +1,3 @@
-import { RiMenuFoldLine } from "react-icons/ri";
 import ResponsiveMenu from "../responsive-menu";
 
 export default function Header() {
@@ -11,10 +10,6 @@ export default function Header() {
           </div>
           <h2 className="text-green-600 text-2xl font-medium">Rocket</h2>
         </div>
-
-        {/* <button>
-          <RiMenuFoldLine className="text-3xl text-green-600 cursor-pointer" />
-        </button> */}
         <ResponsiveMenu />
       </nav>
     </header>
