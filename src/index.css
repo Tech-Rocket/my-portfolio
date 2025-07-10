@@ -7,6 +7,12 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 body {
   background: #0f4d66;
   background: linear-gradient(
