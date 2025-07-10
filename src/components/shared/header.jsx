@@ -8,7 +8,9 @@ export default function Header() {
           <div className="h-10 w-10 bg-green-600 text-white rounded-full border-none flex items-center justify-center font-bold">
             TR
           </div>
-          <h2 className="text-green-600 text-2xl font-medium">Rocket</h2>
+          <h2 className="text-green-600 text-2xl font-medium tracking-wide">
+            Rocket
+          </h2>
         </div>
         <ResponsiveMenu />
       </nav>
