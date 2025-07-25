@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <main className="mt-5">
+      <main className="mt-5 antialiased">
         <HeroSection />
       </main>
     </>
